@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CODING ENTHUSIAST</title>
+
+  <!-- Bootstrap core CSS -->
+   <link href="{{ url_for('static', filename ='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="{{url_for('static', filename = 'vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="{{url_for('static', filename ='css/clean-blog.min.css') }}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">About me</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="/Portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/dev">Development and Credits</a>
+          </li>
+           
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact me</a>
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+ <header class="masthead" style="background-image: url('{{url_for('static', filename ='img/post-bg.jpg' )}}">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <!-- <h1>Structure  and Credits</h1> -->
+         <!--    <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
+            <span class="meta">Posted by
+              <a href="#">Start Bootstrap</a>
+              on August 24, 2019</span> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+       <b><u>DEVELOPMENT: </u></b> The tools and structure that I have used in developing of this website are listed below and some of them are having direct links to their respective webpages.<br>
+
+      
+       <hr>
+
+
+<b><u>FRONT-END:</u></b><br>
+(1)<a href="https://getbootstrap.com/" style="color:#0062cc"  target="_blank" >BOOTSTRAP</a><br>
+(2)HTML<br>
+(3)CSS<br>
+
+<hr>
+<b><u>BACK-END:</u></b><br>
+(1)<a href="https://flask.palletsprojects.com/en/2.0.x/"style="color:#0062cc"  target="_blank" >FLASK</a><br>
+(2)SQL<br>
+(3)<a href="https://www.apachefriends.org/index.html"style="color:#0062cc"  target="_blank" >XAMPP</a><br>
+<hr>
+
+<b><u>EDITORS USED:</b></u><br>
+(1)<a href="https://visualstudio.microsoft.com/" style="color:#0062cc"  target="_blank" >VISUAL STUDIO CODE : USED FOR BACKEND</a><br>
+
+(2)<a href="https://www.sublimetext.com/" style="color:#0062cc" target="_blank"  >SUBLIME TEXT : USED FOR FRONT END</a><br>
+
+<hr>
+
+
+
+<b><u>CREDITS:</b></u><br>
+(1) PRIYANK SHARMA   (PRODUCT MANAGER- AMAZON)<br>
+(2) SRISHTI BHARDWAJ(TEK-SYSTEMS) <br>
+(3)YOU-TUBE
+      </div>
+    </div>
+  </div>
+
+  <!-- Post Content -->
+  <!-- <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p></p>
+
+          
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr> -->
+
+<footer class="footer text-center"
+        bgcolor = #1a2530>
+
+
+            <div class="container"
+            bg color = #1a2530>
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            AB-344 Nirman Nagar
+                            <br />
+                            Jaipur, Rajasthan 302019
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-dark btn-social mx-1" href="https://www.facebook.com/anshumansharma344/"  target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
+                       <!--  <a class="btn btn-outline-dark  btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a> -->
+                        <a class="btn btn-outline-dark  btn-social mx-1" href="https://www.linkedin.com/in/anshuman-sharma-a648b71a5"  target="_blank" ><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-dark  btn-social mx-1" href="https://github.com/Asharma002"  target="_blank"><i class="fab fa-github -in"></i></a>
+
+                        
+                         <p class="copyright text-muted"><a href="https://copyright.gov.in/termsCondition.aspx">Copyright &copy;CODING ENTHUSIAST 2021 All Rights Reserved.</a></p>
+                        <!-- <a class="btn btn-outline-dark  btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a> -->
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">contact details</h4>
+                        <p class="lead mb-0">
+                            Email: anshumansharma179@gmail.com
+                            <!-- <a href="http://startbootstrap.com">Start Bootstrap</a> -->
+                            .
+                        <!-- </p> -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+<!--   <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy;CODING ENTHUSIAST 2021</p>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{url_for('static', filename =  'vendor/jquery/jquery.min.js') }}"></script>
+  <script src="{{url_for('static', filename =  'vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="{{url_for('static', filename =  'js/clean-blog.min.js') }}"></script>
+</body>
+
+</html>

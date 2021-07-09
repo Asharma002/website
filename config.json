@@ -1,0 +1,20 @@
+{
+
+   "param" :
+   {
+        "local_server":"True",
+        "local_uri":"mysql://root:@localhost/coding enthusiast",
+        "prod_uri":"mysql://root:@localhost/coding enthusiast",
+        "gmail-user":"anshumansharma179@gmail.com",
+        "gmail-password":"xxxxxxxxxx",
+        "login_image":"login.svg",
+        "admin_user":"admin@admin",
+        "admin_password":"admin"
+        
+
+
+
+   }
+
+
+}
